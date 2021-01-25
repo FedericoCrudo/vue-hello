@@ -3,10 +3,35 @@
 // Poi aggiungete all'immagine una classe sempre presa dal data.
 
 var print = new Vue({
-    el: '.print',
+    el: '.element',
     data: {
-    message: 'Hello World',
-    src:'img/immagine.jpg',
-    alt:'immagine-prova'
+    items:[
+        {
+            "user":"Luca",
+            "email":"luca@gmail.com",
+            "password":"luca",
+            "stato":"on"
+        },
+        {
+            "user":"Luca",
+            "email":"luca@gmail.com",
+            "password":"luca",
+            "stato":"on"
+        },
+        {
+            "user":"licci",
+            "email":"licci@gmail.com",
+            "password":"liccu",
+            "stato":"on"
+        },
+        {
+            "user":"Lorenzo",
+            "email":"lorenzo@gmail.com",
+            "password":"lore",
+            "stato":"off"
+        }
+    ]
+
     },
+    
     });
